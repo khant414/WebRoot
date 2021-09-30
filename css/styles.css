@@ -1,0 +1,25 @@
+            
+#portrait {          
+height:150px;
+float: left;
+}
+
+#portrait:hover {
+    transform: scale(1.5)
+}
+
+p {
+    font-size: 13px;
+    color: #ffffff ;
+    font-weight: 500
+}
+div {
+    background-color: #323a45
+}
+body {
+    background-color: darkgray ;
+}
+h1 {
+
+    color: #ffffff ;
+}
