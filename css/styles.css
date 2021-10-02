@@ -1,48 +1,46 @@
-            
 #portrait {          
 height:150px;
 float: left;
+box-shadow: 1px 2px 3px rgba(0,0,0,.5);
 }
-
 #portrait:hover {
-    transform: scale(1.1)
+    transform: scale(1.05)
 }
-
 p {
     font-size: 13px;
-    color: #ffffff ;
-    font-weight: 500
+    color: #DDDEE0 ;
+    font-family: 'Yaldevi','sans-serif'
 }
 div {
-    background-color: #323a45
+    background-color: #323a45;
+    
 }
 body {
-    
+    padding: 0;
+    margin:0;
     background: lighten(#0E76A8,45%);
+    background-color: #323a45;
   }
-
 .btn-linkedin {
         background: #0E76A8;
         border-radius: 0;
-        color: #fff;
+        color: #DDDEE0;
         border-width: 1px;
         border-style: solid;
         border-color: #084461;
+        font-family: 'Yaldevi','sans-serif'
       }
       .btn-linkedin:link, .btn-linkedin:visited {
-        color: #fff;
+        color: #DDDEE0;
       }
       .btn-linkedin:active, .btn-linkedin:hover {
-        background: #fff;
+        background: #767C83;
 	  color: #323a45;
       }
-
-
-
-
-
     h1 {
-
-        color: #ffffff ;
+        color: #DDDEE0 ;
+    }
+    .row{
+      background-color: #323a45;
     }
         
