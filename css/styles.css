@@ -10,11 +10,11 @@ html {
 }
 html,
 body {
-  width: 100%;
+    width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    /* overflow-x: hidden;  */
 }
 body {
   font-size: 13px;
@@ -127,7 +127,7 @@ td {
   font-family: "Yaldevi", "sans-serif";
   font-weight: 400;
   padding: 20px;
-  width: 33.3333%;
+  width: 25%;
   font-family: "Yaldevi", "sans-serif";
 }
 footer {
