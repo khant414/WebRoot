@@ -34,7 +34,7 @@
     />
     <meta name="author" content="Kyle Hantula" />
   </head>
-  <body>
+  <body class="Site">
     <header>
       <nav class="navbar navbar-expand-lg navbar-light">
         <a href="../index.html" class="logo">
@@ -52,97 +52,112 @@
       </nav>
     </header>
     <div class="container-fluid">
-      <table class="resourcetable">
-        <tr>
-          <th scope="col">Resource</th>
-          <th scope="col">Link</th>
-          <th scope="col">Rating</th>
-          <th scope="col">Description</th>
-        </tr>
-        <tr>
-          <td>W3C HTML Validation</td>
-          <td>
-            <a href="https://validator.w3.org/" target="_blank"
-              >https://validator.w3.org/</a
-            >
-          </td>
-          <td>5</td>
-          <td>Validates your HTML by doc upload, URI or even direct paste!</td>
-        </tr>
-        <tr>
-          <td>W3C CSS Validation</td>
-          <td>
-            <a href="https://jigsaw.w3.org/css-validator/" target="_blank"
-              >https://jigsaw.w3.org/css-validator/</a
-            >
-          </td>
-          <td>4</td>
-          <td>Validates your CSS by doc upload, URI or even direct paste! Doesn't work so well for external CSS librarires</td>
-        </tr>
-        <tr>
-          <td>CodeAcademy HTML Cheat Sheet</td>
-          <td>
-            <a
-              href="https://www.codecademy.com/learn/learn-html/modules/learn-html-elements/cheatsheet"
-              target="_blank"
-              >https://www.codecademy.com/learn/learn-html/modules/learn-html-elements/cheatsheet</a
-            >
-          </td>
-          <td>4</td>
-          <td>
-            Valuable HTML references, including Semantic HTML documentation
-          </td>
-        </tr>
-        <tr>
-          <td>CodeAcademy CSS Cheat Sheet</td>
-          <td>
-            <a
-              href="https://www.codecademy.com/learn/learn-css/modules/syntax-and-selectors/cheatsheet"
-              target="_blank"
-              >https://www.codecademy.com/learn/learn-css/modules/syntax-and-selectors/cheatsheet</a
-            >
-            <td>4</td>
-          </td>
-          <td>
-            Valuable CSS reference, awesome to use when troubleshooting styling
-            issues. Cheat Sheet links to the course surrounding CSS, so it's a
-            great way to go back and grab examples & mold them for your specific
-            purposes.
-          </td>
-        </tr>
-        <tr>
-          <td>CodeAcademy JavaScript Cheat Sheet</td>
-          <td>
-            <a
-              href="https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction/cheatsheet"
-              target="_blank"
-              >https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction/cheatsheet</a
-            >
-          </td>
-          <td>5</td>
-          <td>
-            Awesome JavaScript reference - This is a resource that reinforces
-            the techniques I practiced in the CodeAcademy Javascript course. I
-            frequently use it as a reference for methods, variables, constants
-            etc..
-          </td>
-        </tr>
-        <tr>
-          <td>W3Schools</td>
-          <td>
-            <a href="https://www.w3schools.com/" target="_blank"
-              >https://www.w3schools.com/</a
-            >
-          </td>
-          <td>4</td>
-          <td>
-            W3Schools is an alternative resource I like to use as more of a
-            dictionary when I'm researching specific methods, elements or CSS
-            selectors & attributes.
-          </td>
-        </tr>
-        <tfoot></tfoot>
-      </table>
+      <div class="divTable darkTable">
+        <div class="divTableHeading">
+          <div class="divTableRow">
+            <div class="divTableHead">Resource</div>
+            <div class="divTableHead">Link</div>
+            <div class="divTableHead">Rating</div>
+            <div class="divTableHead">Description</div>
+          </div>
+        </div>
+        <div class="divTableBody">
+          <div class="divTableRow">
+            <div class="divTableCell">W3C HTML Validation</div>
+            <div class="divTableCell">
+              <a href="https://validator.w3.org/" target="_blank"
+                >https://validator.w3.org/</a
+              >
+            </div>
+            <div class="divTableCell">5</div>
+            <div class="divTableCell">
+              Validates your HTML by doc upload, URI or even direct paste!
+            </div>
+          </div>
+          <div class="divTableRow">
+            <div class="divTableCell">W3 CSS <br />Validation</div>
+            <div class="divTableCell">
+              <a href="https://jigsaw.w3.org/css-validator/" target="_blank"
+                >https://jigsaw.w3.org/css-validator/</a
+              >
+            </div>
+            <div class="divTableCell">4</div>
+            <div class="divTableCell">
+              Validates your CSS by doc upload, URI or even direct paste!
+              Doesn't work so well for external CSS librarires
+            </div>
+          </div>
+          <div class="divTableRow">
+            <div class="divTableCell">CodeAcademy HTML Cheat Sheet</div>
+            <div class="divTableCell">
+              <a
+                href="https://www.codecademy.com/learn/learn-html/modules/learn-html-elements/cheatsheet"
+                target="_blank"
+                >https://www.codecademy.com/learn/learn-html/modules/learn-html-elements/cheatsheet</a
+              >
+            </div>
+            <div class="divTableCell">4</div>
+            <div class="divTableCell">
+              Valuable HTML references, including Semantic HTML documentation
+            </div>
+          </div>
+          <div class="divTableRow">
+            <div class="divTableCell">CodeAcademy CSS Cheat Sheet</div>
+            <div class="divTableCell">
+              <a
+                href="https://www.codecademy.com/learn/learn-css/modules/syntax-and-selectors/cheatsheet"
+                target="_blank"
+                >https://www.codecademy.com/learn/learn-css/modules/syntax-and-selectors/cheatsheet</a
+              >
+            </div>
+            <div class="divTableCell">4</div>
+            <div class="divTableCell">
+              Valuable CSS reference, awesome to use when troubleshooting
+              styling issues. Cheat Sheet links to the course surrounding CSS,
+              so it's a great way to go back and grab examples & mold them for
+              your specific purposes.
+            </div>
+          </div>
+          <div class="divTableRow">
+            <div class="divTableCell">CodeAcademy JavaScript Cheat Sheet</div>
+            <div class="divTableCell">
+              <a
+                href="https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction/cheatsheet"
+                target="_blank"
+                >https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction/cheatsheet</a
+              >
+            </div>
+            <div class="divTableCell">5</div>
+            <div class="divTableCell">
+              Awesome JavaScript reference - This is a resource that reinforces
+              the techniques I practiced in the CodeAcademy Javascript course. I
+              frequently use it as a reference for synatx etc..
+            </div>
+          </div>
+          <div class="divTableRow">
+            <div class="divTableCell">W3Schools</div>
+            <div class="divTableCell">
+              <a href="https://www.w3schools.com/" target="_blank"
+                >https://www.w3schools.com/</a
+              >
+            </div>
+            <div class="divTableCell">4</div>
+            <div class="divTableCell">
+              W3Schools is an alternative resource I like to use as more of a
+              dictionary when I'm researching specific methods, elements or CSS
+              selectors & attributes.
+            </div>
+          </div>
+        </div>
+        <!-- <div class="divTableFoot tableFootStyle">
+          <div class="divTableRow">
+            <div class="divTableCell">foot1</div>
+            <div class="divTableCell">foot2</div>
+            <div class="divTableCell">foot3</div>
+            <div class="divTableCell">foot4</div>
+          </div> -->
+        </div>
+      </div>
     </div>
     <footer>
       <p>© K&H Industries. All rights reserved.</p>
